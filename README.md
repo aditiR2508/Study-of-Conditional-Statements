@@ -15,33 +15,33 @@ ________________________________________
 ## •	To apply decision logic to real-life problems
 ________________________________________
 # Theory
-## In Python, decision making is achieved using conditional statements. The if-else statement allows a program to execute one block of code when a condition is true and another block when it is false.
-## Python uses indentation instead of braces to define blocks of code. Proper indentation is mandatory.
-## In Python, decision making is implemented using conditional statements, which allow the program to take different paths of execution depending on whether a condition is satisfied or not.
-The if-else statement is the most basic and widely used conditional control structure in Python. It enables the program to evaluate a condition and execute one block of code when the condition is true and another block when the condition is false.
+### In Python, decision making is achieved using conditional statements. The if-else statement allows a program to execute one block of code when a condition is true and another block when it is false.
+### Python uses indentation instead of braces to define blocks of code. Proper indentation is mandatory.
+### In Python, decision making is implemented using conditional statements, which allow the program to take different paths of execution depending on whether a condition is satisfied or not.
+### The if-else statement is the most basic and widely used conditional control structure in Python. It enables the program to evaluate a condition and execute one block of code when the condition is true and another block when the condition is false.
 ________________________________________
-Boolean Conditions
-The condition used in an if-else statement must evaluate to a Boolean value, i.e., True or False. Conditions are generally formed using:
-•	Relational operators (<, >, <=, >=, ==, !=)
-•	Logical operators (and, or, not)
-Example conditions:
-•	marks >= 40
-•	age >= 18 and citizen == True
+## Boolean Conditions
+### The condition used in an if-else statement must evaluate to a Boolean value, i.e., True or False. Conditions are generally formed using:
+#### •	Relational operators (<, >, <=, >=, ==, !=)
+#### •	Logical operators (and, or, not)
+### Example conditions:
+#### •	marks >= 40
+#### •	age >= 18 and citizen == True
 ________________________________________
-Importance of Indentation in Python
-Unlike other programming languages that use braces { } to define code blocks, Python uses indentation. All statements inside the if or else block must be indented at the same level.
-Incorrect indentation leads to:
-•	Logical errors
-•	IndentationError during execution
-Thus, indentation plays a crucial role in Python’s syntax and readability.
+## Importance of Indentation in Python
+### Unlike other programming languages that use braces { } to define code blocks, Python uses indentation. All statements inside the if or else block must be indented at the same level.
+### Incorrect indentation leads to:
+#### •	Logical errors
+#### •	IndentationError during execution
+### Thus, indentation plays a crucial role in Python’s syntax and readability.
 ________________________________________
-Control Flow in if-else
-The if-else statement controls the flow of execution of a program:
-•	Only one block (if or else) executes at a time
-•	Execution is linear after the conditional block completes
-This ensures efficient decision-based execution.
+## Control Flow in if-else
+### The if-else statement controls the flow of execution of a program:
+#### •	Only one block (if or else) executes at a time
+#### •	Execution is linear after the conditional block completes
+### This ensures efficient decision-based execution.
 ________________________________________
-Types of Conditions Used
+## Types of Conditions Used
 •	Simple condition: Single comparison
 •	Compound condition: Combination of two or more conditions using logical operators
 This allows complex decision-making in real-life scenarios such as eligibility checking, authentication, grading systems, etc.
