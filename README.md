@@ -47,88 +47,89 @@ ________________________________________
 ### This allows complex decision-making in real-life scenarios such as eligibility checking, authentication, grading systems, etc.
 
 ## Flow of Execution
-Start
+## Start
   ↓
-Condition
+## Condition
   ↓
-True → if-block
-False → else-block
+## True → if-block
+## False → else-block
   ↓
- End
+ ## End
 
-Program 1: Check Whether a Number is Even or Odd
-Program 2: Check Pass or Fail
-Program 3: Voting Eligibility 
-Program 4: Login Authentication (Check Name and Password)
+## Program 1: Check Whether a Number is Even or Odd
+## Program 2: Check Pass or Fail
+## Program 3: Voting Eligibility 
+## Program 4: Login Authentication (Check Name and Password)
 
-Decision Making Using if-elif-else Statement in PythonSyntax
-if condition1:
+## Decision Making Using if-elif-else Statement in Python
+### Syntax:
+### if condition1:
     statement(s)
-elif condition2:
+### elif condition2:
     statement(s)
-elif condition3:
+### elif condition3:
     statement(s)
-else:
+### else:
     statement(s)
 
-Program 1: Grade Calculation
-marks = int(input("Enter marks: "))
+## Program 1: Grade Calculation
 
-if marks >= 90:
+### marks = int(input("Enter marks: "))
+### if marks >= 90:
     print("Grade A")
-elif marks >= 75:
+### elif marks >= 75:
     print("Grade B")
-elif marks >= 60:
+### elif marks >= 60:
     print("Grade C")
-elif marks >= 40:
+### elif marks >= 40:
     print("Grade D")
-else:
+### else:
     print("Fail")
 
-Program 2: Menu-Driven Choice
-choice = int(input("Enter choice (1-Tea, 2-Coffee, 3-Juice): "))
+## Program 2: Menu-Driven Choice
 
-if choice == 1:
+### choice = int(input("Enter choice (1-Tea, 2-Coffee, 3-Juice): "))
+### if choice == 1:
     print("Tea selected")
-elif choice == 2:
+### elif choice == 2:
     print("Coffee selected")
-elif choice == 3:
+### elif choice == 3:
     print("Juice selected")
-else:
+### else:
     print("Invalid choice")
-Decision Making Using Nested if Statement in Python
-Syntax
-if condition1:
+## Decision Making Using Nested if Statement in Python
+### Syntax:
+### if condition1:
     if condition2:
         statement(s)
     else:
         statement(s)
-else:
+### else:
     statement(s)
 
-Program 1: Voting Eligibility with Citizenship
-age = int(input("Enter age: "))
-citizen = input("Are you a citizen (yes/no): ")
+## Program 1: Voting Eligibility with Citizenship
+### age = int(input("Enter age: "))
+### citizen = input("Are you a citizen (yes/no): ")
 
-if age >= 18:
+### if age >= 18:
     if citizen == "yes":
         print("Eligible to vote")
     else:
         print("Not eligible: Not a citizen")
-else:
+### else:
     print("Not eligible: Age below 18")
 
-Program 2: Login Authentication
-username = input("Enter username: ")
-password = input("Enter password: ")
+## Program 2: Login Authentication
+### username = input("Enter username: ")
+### password = input("Enter password: ")
 
-if username == "admin":
+### if username == "admin":
     if password == "1234":
         print("Login successful")
     else:
         print("Incorrect password")
-else:
+### else:
     print("Invalid username")
 
-Conclusion
-In this set of experiments, various decision-making statements in Python such as if, if-else, if-elif-else, and nested if were studied and implemented successfully. These control structures enable a program to make logical decisions by evaluating conditions and executing appropriate blocks of code.
+# Conclusion
+### In this set of experiments, various decision-making statements in Python such as if, if-else, if-elif-else, and nested if were studied and implemented successfully. These control structures enable a program to make logical decisions by evaluating conditions and executing appropriate blocks of code.
