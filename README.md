@@ -42,11 +42,11 @@ ________________________________________
 ### This ensures efficient decision-based execution.
 ________________________________________
 ## Types of Conditions Used
-•	Simple condition: Single comparison
-•	Compound condition: Combination of two or more conditions using logical operators
-This allows complex decision-making in real-life scenarios such as eligibility checking, authentication, grading systems, etc.
+### •	Simple condition: Single comparison
+### •	Compound condition: Combination of two or more conditions using logical operators
+### This allows complex decision-making in real-life scenarios such as eligibility checking, authentication, grading systems, etc.
 
-Flow of Execution
+## Flow of Execution
 Start
   ↓
 Condition
